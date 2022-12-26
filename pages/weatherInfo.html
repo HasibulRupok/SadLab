@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherInfo-TourPlanner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- custom Css -->
+    <link rel="stylesheet" href="../CSS/weatherInfoContainer.css">
+</head>
+
+<body>
+    
+    <section id="xxContainer">
+        <h2 id="topTitle">The Weather Forecasting of <span id="location"> </span> for the next 5 days for each 3 hours</h2>
+
+        <div id="fullDiv">
+            <div class="weatherCard">
+                <p class="DateTime">2022-12-24 18:00:00</p>
+                <img src="https://openweathermap.org/img/wn/10d@2x.png" alt="">
+                <p>26.5°C, Feels Like 25°C</p>
+                <h6>Rain</h6>
+                <p>Clear Sky</p>
+                <p>wind 25, humidity 100</p>
+            </div>
+        </div>
+
+    </section>
+    <div id="homeBack">
+        <button id="HomeBtn">Back To Home</button>
+    </div>
+
+    <script src="../js/weatherData.js"></script>
+</body>
+
+</html>
