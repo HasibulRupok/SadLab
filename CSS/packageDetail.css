@@ -1,0 +1,132 @@
+/* global */
+.w80{
+    width: 80% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.locationIccon{
+    color: green;
+    font-size: x-large;
+}
+
+/* nav  */
+#navbarCollapse{
+    padding: 10px 0;
+}
+#navbarCollapse a{
+    color: white !important;
+}
+/* total sesction */
+#fullSection{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding:20px;
+    box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.267);
+    border-radius: 15px;
+
+}
+.carosoulCOntainer{
+    height: 70vh !important;
+}
+.carosoulCOntainer img{
+    height: 70vh !important;
+    border-radius: 10px !important;
+}
+.carosel1Text > h5 {
+    color: white !important;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.carosel1Text > p {
+    color: white !important;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+
+/* roomDetaails */
+#roomDetaails{
+    margin-top: 1.5rem;
+    
+}
+.cardTopRow{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 6px;
+}
+
+/* activity */
+#acticity{
+    margin-top: 1rem;
+}
+#acticity >  ul{
+    margin-top: 10px;
+    margin-left: 2rem;
+}
+#acticity >  details{
+    margin-top: 5px;
+    margin-left: 1.5rem;
+
+    color: rgb(0, 153, 255);
+}
+
+/* details  */
+#details>h5{
+    margin: 2rem 0 1rem 0;
+    font-weight: bold;
+}
+#price{
+    font-weight: 800;
+}
+
+/* bookNOwCOntainer */
+#bookNOwCOntainer{
+    margin: 2rem auto !important;
+    width: fit-content;
+}
+#bookNOwCOntainer>button{
+    margin-top: 1rem;
+    background-color: rgb(0, 195, 255);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.2s;
+}
+#bookNOwCOntainer>a{
+    margin-top: 1rem;
+    background-color: rgb(0, 195, 255);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    transition: 0.2s;
+}
+#bookNOwCOntainer>button:hover{
+    background-color: rgba(59, 209, 255, 0.774);
+}
+#bookNOwCOntainer>a:hover{
+    background-color: rgba(59, 209, 255, 0.774);
+    cursor: pointer;
+}
+
+
+/* email section  */
+#emailSection{
+    width: 45%;
+    height: 40vh;
+    background-color: rgb(0, 162, 255);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#confirmBooking2{
+    background-color: red !important;
+}
