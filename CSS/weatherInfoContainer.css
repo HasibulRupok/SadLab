@@ -1,0 +1,59 @@
+h6{
+    font-weight: 900;
+}
+#weatherInfoContainer {
+    display: flex;
+}
+
+#topTitle {
+    padding-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    font-size: xx-large;
+}
+
+#xxContainer {
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#fullDiv {
+    width: 80%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.weatherCard {
+    background-color: #d3d8d4ab;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.562);
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 6px;
+}
+
+.weatherCard>img {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#homeBack{
+    width: fit-content;
+    margin: 3rem auto;
+}
+#homeBack > button{
+    background-color: rgb(40, 176, 255);
+    padding: 8px 20px;
+    border: 1px solid rgba(40, 176, 255, 0.856);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+}
+#homeBack > button:hover{
+    background-color: rgba(55, 182, 255, 0.801);
+}
